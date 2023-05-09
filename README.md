@@ -14,3 +14,8 @@ I have created a local API. This API is not hosted anywhere and only works when 
 Basically to get data, you must input the temperature that day in fahrenheit and optionally input whether its raining or not. It defaults to false if it's not included. My API will perform some logic and return a string of what the user should do to prepare for the weather. The above are some examples of the endpoint being used. 
 
 My API will return a 200 code and a string with whatever the recommendation is. 
+
+
+
+![image](https://user-images.githubusercontent.com/68794174/237000587-4a92cfca-480b-4887-8305-06e3aa5e81de.png)
+
