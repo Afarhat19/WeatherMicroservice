@@ -11,7 +11,7 @@ I have created a local API. This API is not hosted anywhere and only works when 
 (https://localhost:5001/WeatherForecast/15?israining=false) - Returns the string "Wear at least 4 layers with gloves and a hat."
 (https://localhost:5001/WeatherForecast/-10?israining=true) - Returns a 400 Bad Request response with the message "Invalid temperature value." (since the temperature parameter is less than 0 and outside the expected range)
 
-Basically to get data, you must input the temperature that day in fahrenheit and optionally input whether its raining or not. It defaults to false if it's not included. My API will perform some logic and return a string of what the user should do to prepare for the weather. The above are some examples of the endpoint being used. 
+To effectively request this endpoint, make sure to pass the temperature parameter for the day in Fahrenheit. Additionally, you have the option to pass a boolean parameter ("IsRaining") to indicate whether it is raining or not. If the "IsRaining" parameter is not passed, my microservice will assume a default value of false. By calling this endpoint, you can expect to receive a string response that suggests appropriate actions to prepare for the weather. The following examples demonstrate the usage of this endpoint.
 
 My API will return a 200 code and a string with whatever the recommendation is. 
 
