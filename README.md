@@ -17,5 +17,6 @@ My API will return a 200 code and a string with whatever the recommendation is.
 
 
 
-![image](https://user-images.githubusercontent.com/68794174/237000587-4a92cfca-480b-4887-8305-06e3aa5e81de.png)
+![image](https://github.com/Afarhat19/WeatherMicroservice/assets/68794174/e475c477-1ec1-4cd5-9eb8-8e5020bb415e)
+
 
